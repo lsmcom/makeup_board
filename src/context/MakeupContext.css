@@ -1,0 +1,17 @@
+.card-container{
+    width:1000px; 
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    gap: 20px;
+    margin: auto;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: pink;
+}
+
+.card h3{ 
+    cursor: pointer;
+    color: blue;
+}

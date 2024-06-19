@@ -1,0 +1,22 @@
+.container{
+    width: 1200px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+@media screen and  (max-width: 1250px) {
+    .container{
+        width: 100%; 
+        background-color: pink;
+    }
+}
+@media screen and  (max-width: 1000px) {
+    .container{ 
+        background-color: skyblue;
+    }
+}
+@media screen and  (max-width: 600px) {
+    .container{ 
+        background-color: lightgreen;
+    }
+}

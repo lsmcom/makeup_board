@@ -1,0 +1,17 @@
+aside{
+    position: fixed;
+    width: 200px; 
+    height: 100%;
+    right: 0; 
+    background-color: pink;
+    top:0; 
+}
+
+aside button{
+    position: absolute;
+    transform: translate(-100%, 200px);
+}
+
+aside.active{
+    right:-200px; 
+}

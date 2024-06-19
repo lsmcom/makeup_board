@@ -1,0 +1,12 @@
+.lnb ul{
+    display: flex;
+    list-style: none;
+    gap: 50px; 
+}
+
+/* li.active a{ */
+a.active{
+    color:red; 
+    background-color: antiquewhite;
+    padding:  10px; 
+}
